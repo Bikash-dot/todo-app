@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>task</title>
+        <style>
+            body{
+                background-color: #638CB8;
+            }
+    </style>
+    </head>
+    <body>
+        <div class="center-column"></div>
+        <h1>update task</h1>
+        <form method="Post" action="">
+            {% csrf_token %}
+            {{form}}
+            <input type="submit" name="update">
+
+        </form>
+        </div>
+    </body>
+</html>
